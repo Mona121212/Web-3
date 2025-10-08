@@ -1,6 +1,7 @@
 import Link from "next/link";
 import MyFirstComponent from "./_components/my-first-component";
 export default function Home() {
+  let linkeStyles = "text-cyan-600 underline hover:text-cyan-300";
   return (
     <main>
       <h1 className="text-3xl">CPRG306 Class Examples</h1>
@@ -8,12 +9,39 @@ export default function Home() {
       <p>Hello World!</p>
       <h2>Class Example Links</h2>
       <ul>
-        <li><Link className="text-cyan-600 underline hover:text-cyan-300" href="./week-2/">Week 2 - Introduction to React</Link>  </li>
-        
-        <li><Link className="text-cyan-600 underline hover:text-cyan-300" href="./week-3/objects">Week 3 - Introduction to Object</Link>  </li>
+        <li>
+          <Link className={linkeStyles} href="./week-2/">
+            Week 2 - Introduction to React
+          </Link>{" "}
+        </li>
 
-        <li><Link className="text-cyan-600 underline hover:text-cyan-300" href="./week-3/props">Week 2 - Introduction to Props</Link>  </li>
+        <li>
+          <Link className={linkeStyles} href="./week-3/objects">
+            Week 3 - Introduction to Object
+          </Link>{" "}
+        </li>
 
+        <li>
+          <Link className={linkeStyles} href="./week-3/props">
+            Week 3 - Introduction to Props
+          </Link>{" "}
+        </li>
+        <li>
+          <Link className={linkeStyles} href="./week-4/counter">
+            Week 4 - counter
+          </Link>{" "}
+        </li>
+        <li>
+          <Link className={linkeStyles} href="./week-4/functions">
+            Week 4 - functions
+          </Link>{" "}
+        </li>
+
+        <li>
+          <Link className={linkeStyles} href="./week-5/">
+            Week 5 - functions
+          </Link>{" "}
+        </li>
       </ul>
     </main>
   );
