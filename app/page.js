@@ -39,7 +39,28 @@ export default function Home() {
 
         <li>
           <Link className={linkeStyles} href="./week-5/">
-            Week 5 - functions
+            Week 5 - controlled component
+          </Link>{" "}
+        </li>
+        <li>
+          <Link className={linkeStyles} href="./week-6/arrays">
+            Week 6 - Array Method
+          </Link>{" "}
+        </li>
+        <li>
+          <Link className={linkeStyles} href="./week-6/list">
+            Week 6 - List Handling
+          </Link>{" "}
+        </li>
+
+        <li>
+          <Link className={linkeStyles} href="./week-7/counter">
+            Week 7 - state bathching
+          </Link>{" "}
+        </li>
+        <li>
+          <Link className={linkeStyles} href="./week-7/state-lifting">
+            Week 7 - state lifting
           </Link>{" "}
         </li>
       </ul>

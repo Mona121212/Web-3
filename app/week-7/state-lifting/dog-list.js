@@ -32,6 +32,8 @@ export default function DogListComp({ dogArray, removeDogFunc }) {
   return (
     <section>
       <div>
+        
+
         <div>
           <label>Filter by: </label>
           <select onChange={handleDogFilterChange}>
