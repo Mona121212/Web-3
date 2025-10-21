@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "name": "Rover",
+    "age": 3,
+    "breed": "Gaddi Indian",
+    "photoUrl": "https://images.dog.ceo/breeds/gaddi-indian/Gaddi.jpg"
+  },
+
+  {
+    "id": 2,
+    "name": "Rover",
+    "age": 1,
+    "breed": "Golden Retriever",
+    "photoUrl": "https://images.dog.ceo/breeds/segugio-italian/n02090722_002.jpg"
+  },
+
+  {
+    "id": 3,
+    "name": "Rover",
+    "age": 4,
+    "breed": "Terrier Fox",
+    "photoUrl": "https://images.dog.ceo/breeds/terrier-fox/n02095314_928.jpg"
+  },
+
+  {
+    "id": 4,
+    "name": "Rover",
+    "age": 6,
+    "breed": "Golden Retriever",
+    "photoUrl": "https://images.dog.ceo/breeds/gaddi-indian/Gaddi.jpg"
+  },
+
+  {
+    "id": 5,
+    "name": "Rover",
+    "age": 9,
+    "breed": "Retriever Chesapeake",
+    "photoUrl": "https://images.dog.ceo/breeds/retriever-chesapeake/n02099849_3777.jpg"
+  },
+
+  {
+    "id": 6,
+    "name": "Rover",
+    "age": 1,
+    "breed": "Shihtzu",
+    "photoUrl": "https://images.dog.ceo/breeds/shihtzu/n02086240_6106.jpg"
+  }
+]
